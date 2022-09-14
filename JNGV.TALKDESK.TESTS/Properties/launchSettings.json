@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "JNGV.TALKDESK.TESTS": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

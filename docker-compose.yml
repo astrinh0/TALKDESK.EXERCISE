@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+ web:    
+    container_name: web
+    image: ${DOCKER_REGISTRY-}jngvtalkdeskapi
+    build:
+      context: .
+      dockerfile: JNGV.TALKDESK.API/Dockerfile
+
